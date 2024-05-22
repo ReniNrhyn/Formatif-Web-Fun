@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+    <div class="flex items-center justify-center mb-5">
+        <img src="assets/image/tagline-warna.png" alt="tagline-warna" class="w-32 h-16">
+        <img src="assets/image/logo-lp3i.png" alt="logo-lp3i" class="w-32 h-16">
+    </div>
+    
+    <div class="container mx-auto px-4 py-8 flex justify-content-center">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="bg-white shadow-md rounded-lg p-4">
+                <h2 class="text-xl font-bold mb-2">Reni Nurhayani</h2>
+                <p>MI23B</p>
+                <p>Selama saya belajar web fundamental saya jadi banyak berfikir tentang codingan yang begitu rumit buat saya hehee...</p>
+                <p>Banyak kesan nyaa Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit perspiciatis voluptatem doloremque ullam atque maxime magnam impedit dolore beatae ea, error quia, possimus dolorum reiciendis veniam. In tenetur soluta incidunt?</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Alert Flowbite -->
+    <div id="flowbiteSuccessAlert" class="hidden p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400" role="alert">
+        <span class="font-medium">Info alert!</span> Berhasil Login
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            // Tampilkan alert "Berhasil Login"
+            $("#flowbiteSuccessAlert").removeClass("hidden");
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            // Tampilkan alert "Berhasil Login"
+            $("#flowbiteSuccessAlert").removeClass("hidden");
+        });
+    </script>
+</body>
+
+</html>
